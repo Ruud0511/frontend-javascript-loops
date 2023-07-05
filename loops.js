@@ -11,13 +11,11 @@
 // Dit heb je nog niet geleerd, maar bekijk hiervoor dit MDN-artikel eens: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 // ==========================================
 
-const asterisk  = ['*'];
+let asterisk = 0;
 
-for (let i  = '*' ; i < '******'; i++) {
-    console.log(i.repeat(5) + '*')
+for (let i = 0; i < 5 ; i++) {
+    console.log('*'.repeat(5))
 }
-
-// Dit is een voorbeeld van waar de tip mij niet duidelijk maakt hoe ik het moet integreren in de for-loop. Extra uitleg of voorbeeld is gewenst.
 
 
 // ==========================================
@@ -30,8 +28,15 @@ for (let i  = '*' ; i < '******'; i++) {
 // klaar!
 // ==========================================
 
+let looping = 0
 
-
+for (let i = 0; i < 4 ; i++) {
+    if (looping < 4) {
+        console.log('loop')
+    } else {
+        console.log('klaar!')
+    }
+}
 
 // ==========================================
 // Opdracht 3: maak een for-loop die van 0 tot 9 loopt en de getallen 0 tot 9 logt.
@@ -49,9 +54,11 @@ for (let i  = '*' ; i < '******'; i++) {
 // >> 9
 // ==========================================
 
-
-
-
+for (let i = 0; i < 10; i++) {
+    for (let j = 3; j < 6; j++) {
+        console.log(i, j)
+    }
+}
 
 // ==========================================
 // Opdracht 4 (BONUS): schrijf een for-loop die van 0 tot 100 loopt en de getallen print.
