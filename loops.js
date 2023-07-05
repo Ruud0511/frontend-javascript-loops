@@ -11,8 +11,13 @@
 // Dit heb je nog niet geleerd, maar bekijk hiervoor dit MDN-artikel eens: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 // ==========================================
 
+const asterisk  = ['*'];
 
+for (let i  = '*' ; i < '******'; i++) {
+    console.log(i.repeat(5) + '*')
+}
 
+// Dit is een voorbeeld van waar de tip mij niet duidelijk maakt hoe ik het moet integreren in de for-loop. Extra uitleg of voorbeeld is gewenst.
 
 
 // ==========================================
@@ -24,7 +29,6 @@
 // loop...
 // klaar!
 // ==========================================
-
 
 
 
