@@ -28,11 +28,9 @@ for (let i = 0; i < 5 ; i++) {
 // klaar!
 // ==========================================
 
-let looping = 0
-
-for (let i = 0; i < 4 ; i++) {
-    if (looping < 4) {
-        console.log('loop')
+for (let i = 0; i < 5 ; i++) {
+    if (i < 4) {
+        console.log('loop...')
     } else {
         console.log('klaar!')
     }
