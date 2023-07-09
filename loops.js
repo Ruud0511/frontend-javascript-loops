@@ -53,8 +53,13 @@ for (let i = 0; i < 5 ; i++) {
 // ==========================================
 
 for (let i = 0; i < 10; i++) {
-    for (let j = 3; j < 6; j++) {
-        console.log(i, j)
+    if (i <3) {
+        console.log(i);
+    }
+      else if (i >= 3 < 6) {
+        console.log('>' + i);
+    } else if (i >= 6) {
+        console.log('>' + i);
     }
 }
 
@@ -96,5 +101,8 @@ for (let i = 0; i < 10; i++) {
 // etc.
 // ==========================================
 
+for (let i = 0; i < 101; i++) {
+    console.log(i);
 
+}
 
